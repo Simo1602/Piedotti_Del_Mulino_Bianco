@@ -1,0 +1,125 @@
+body{
+	/*background-image: sfondo;*/
+	background-color: black;
+}
+
+
+#barra_home{
+	position: relative;
+	top: 0px;
+	width: 99%;
+	position: fixed;
+}
+
+
+ul#barra_home_ul{
+	position: absolute;
+	background-color: gray;
+	width: 100%;
+	left: -8px;
+}
+
+
+li.barra_home_li{
+	display: inline;
+	list-style-type: none;
+	top: 15px;
+	color: white;
+	margin-left: 50px;
+}
+
+#logo{
+	position: absolute;
+	left: 30px;
+
+}
+
+
+
+a.link_home:link{
+
+}
+
+
+a.link_home:hover{
+	
+}
+
+
+a.link_home:active{
+	
+}
+
+
+a.link_home:visited{
+	
+}
+
+
+img{
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	margin: 3px;
+}
+
+
+
+
+.primo_blocco{
+	position: relative;
+	background-color: lightgrey;
+	margin-top: 100px;
+	width: 75%;
+	left: 10px;
+}
+
+
+.genere_anime{
+	position: absolute;
+	background-color: yellow;
+	color: red;
+	font-size: 20px;
+	font-family: Arial;
+	top:-25px;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+
+.blocco_link_serie{
+
+}
+
+.link_serie{
+	display: inline;
+	list-style-type: none;
+}
+
+
+
+
+.aside{
+	position: relative;
+	width: 20%;
+	right: 10px;
+	background-color: white;
+	float: right;
+	margin-top: -590px;
+	height: 600px;
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+
+
+
+
+
+#footer{
+	position: relative;
+	bottom: 0px;
+	width: 100%
+
+}
